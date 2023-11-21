@@ -1,8 +1,10 @@
 # Arch Desktop Setup
 
+<img width="1082" alt="image_2023-05-31_17-00-45" src="https://user-images.githubusercontent.com/31861128/242219787-29a02637-803c-456e-b61f-1a97438c3219.png">
+
 <!-- vim-markdown-toc GFM -->
 
-* [Package Manager](#package-manager)
+* [Package Managers](#package-managers)
 * [Softwares](#softwares)
 * [Bootstrap](#bootstrap)
 * [Partitioning drives](#partitioning-drives)
@@ -39,23 +41,8 @@
 
 <!-- vim-markdown-toc -->
 
-<img width="1082" alt="image_2023-05-31_17-00-45" src="https://user-images.githubusercontent.com/31861128/242219787-29a02637-803c-456e-b61f-1a97438c3219.png">
 
-- [Softwares](#softwares)
-- [Bootsrap](#bootstrap)
-- [Configuration](#configuration)
-- [Install dev-toolkit](#install-dev-toolkit)
-- [Install window manager environment](#install-window-manager-environment)
-- [Package management](#package-management)
-- [Post installation](#post-installation)
-- [Addons tools](#addons-tools)
-- [Device management](#device-management)
-- [Theme customization](#theme-customization)
-- [Further reading](#further-reading)
-
-Dotfiles: https://github.com/yqlbu/arch-dotfiles
-
-## Package Manager
+## Package Managers
 
 - Pacman (Native)
 - Paru (AUR)
