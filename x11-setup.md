@@ -2,6 +2,8 @@
 
 <img width="1082" alt="image_2023-05-31_17-00-45" src="https://user-images.githubusercontent.com/31861128/242219787-29a02637-803c-456e-b61f-1a97438c3219.png">
 
+## Table of Contents
+
 <!-- vim-markdown-toc GFM -->
 
 * [Package Managers](#package-managers)

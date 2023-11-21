@@ -1,5 +1,7 @@
 # Archlinux Hacks
 
+## Table of Contents
+
 <!-- vim-markdown-toc GFM -->
 
 * [Documentation](#documentation)

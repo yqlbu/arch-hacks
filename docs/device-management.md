@@ -1,10 +1,12 @@
 # Device Management
 
+## Table of Contents
+
 <!-- vim-markdown-toc GFM -->
 
 * [Audio control](#audio-control)
-  * [Pulseaudio](#pulseaudio)
-  * [Pipewire](#pipewire)
+	* [Pulseaudio](#pulseaudio)
+	* [Pipewire](#pipewire)
 * [Adjust monitor brightness](#adjust-monitor-brightness)
 * [Mouse adjustment](#mouse-adjustment)
 * [Adjust keyboard repeat rate](#adjust-keyboard-repeat-rate)

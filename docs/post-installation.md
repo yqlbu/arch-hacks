@@ -1,5 +1,7 @@
 # Post installation
 
+## Table of Contents
+
 <!-- vim-markdown-toc GFM -->
 
 * [Basic firewall setup](#basic-firewall-setup)

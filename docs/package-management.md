@@ -1,5 +1,7 @@
 # Package Management
 
+## Table of Contents
+
 <!-- vim-markdown-toc GFM -->
 
 * [Pacman](#pacman)

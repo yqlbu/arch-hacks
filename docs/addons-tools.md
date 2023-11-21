@@ -1,5 +1,7 @@
 # Addons tools
 
+## Table of Contents
+
 <!-- vim-markdown-toc GFM -->
 
 * [Terminal related](#terminal-related)
