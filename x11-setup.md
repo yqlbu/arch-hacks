@@ -1,4 +1,43 @@
-## Arch Desktop Setup
+# Arch Desktop Setup
+
+<!-- vim-markdown-toc GFM -->
+
+* [Package Manager](#package-manager)
+* [Softwares](#softwares)
+* [Bootstrap](#bootstrap)
+* [Partitioning drives](#partitioning-drives)
+    * [Create encryption](#create-encryption)
+    * [Format paritions](#format-paritions)
+    * [Create sub-volumes](#create-sub-volumes)
+* [Install base system](#install-base-system)
+* [Bootstrap system](#bootstrap-system)
+    * [Set timezone](#set-timezone)
+    * [Set locale](#set-locale)
+    * [Set hostname](#set-hostname)
+    * [Create default user](#create-default-user)
+    * [Enable default services](#enable-default-services)
+    * [Setup boot loader (Systemd Boot)](#setup-boot-loader-systemd-boot)
+    * [Unmount partition](#unmount-partition)
+    * [Reboot](#reboot)
+* [Configuration](#configuration)
+    * [System related](#system-related)
+    * [Network related](#network-related)
+    * [Bluetooh related](#bluetooh-related)
+    * [Audio related](#audio-related)
+* [Install dev-toolkit](#install-dev-toolkit)
+* [Package Management](#package-management)
+* [Install window manager environment](#install-window-manager-environment)
+* [Post installation](#post-installation)
+* [Paths](#paths)
+* [Addons](#addons)
+* [Addons tools](#addons-tools)
+* [Device Management](#device-management)
+* [Pulseaudio](#pulseaudio)
+* [Pipewire](#pipewire)
+* [Theme Customization](#theme-customization)
+* [Known Issues](#known-issues)
+
+<!-- vim-markdown-toc -->
 
 <img width="1082" alt="image_2023-05-31_17-00-45" src="https://user-images.githubusercontent.com/31861128/242219787-29a02637-803c-456e-b61f-1a97438c3219.png">
 
@@ -2141,8 +2180,3 @@ sudo reboot
 ```
 
 </details>
-
-## Further reading
-
-- https://arch.icekylin.online/
-- https://sspai.com/post/78916
