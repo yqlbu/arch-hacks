@@ -2,7 +2,12 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [AUR](#aur)
+* [Pacman](#pacman)
+    * [AUR Setup](#aur-setup)
+    * [Update packages](#update-packages)
+    * [Cleanup package cache](#cleanup-package-cache)
+    * [Reconfigure Pacman key](#reconfigure-pacman-key)
+    * [Clean unused packages](#clean-unused-packages)
 * [Aura](#aura)
     * [Install](#install)
     * [Installing a Package](#installing-a-package)
@@ -15,14 +20,12 @@
     * [Set up max jobs](#set-up-max-jobs)
     * [Update channel](#update-channel)
     * [Usage](#usage)
-* [Update packages](#update-packages)
-* [Cleanup package cache](#cleanup-package-cache)
-* [Reconfigure Pacman key](#reconfigure-pacman-key)
-* [Clean unused packages](#clean-unused-packages)
 
 <!-- vim-markdown-toc -->
 
-## AUR
+## Pacman
+
+### AUR Setup
 
 Source: https://github.com/Morganamilo/paru
 
@@ -31,6 +34,70 @@ sudo pacman -S archlinuxcn-keyring
 sudo pacman -S yay
 sudo pacman -S paru
 # alias yay='paru'
+```
+
+### Update packages
+
+Reference: https://wiki.archlinux.org/title/Pacman
+
+```bash
+# pacman
+sudo pacman -Syyu --no-confirm
+alias pacsyu="sudo pacman -Syyu --no-confirm"
+
+# yay
+paru -Syyu --no-confirm
+alias yaysyu="paru -Syyu --no-confirm"
+```
+
+### Cleanup package cache
+
+```bash
+# remove isolated packages
+sudo pacman -Rns $(pacman -Qtdq)
+
+# remove a package and its dependencies which are not used by any other packages
+sudo pacman -Rns package_name
+
+# clean pacman cache
+sudo pacman -S pacman-contrib
+sudo mkdir -p /etc/pacman.d/hooks
+# /etc/pacman.d/hooks/clean_package_cache.hook
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Cleaning pacman cache...
+When = PostTransaction
+Exec = /usr/bin/paccache -rk 2
+
+# clean yay cache manually
+paru -Sc
+yay -Sc
+rm -rf $HOME/cache/yay
+rm -rf $HOME/cache/paru
+```
+
+### Reconfigure Pacman key
+
+```bash
+sudo pacman-key --populate
+sudo pacman -Sy archlinux-keyring && sudo pacman -Su
+```
+
+### Clean unused packages
+
+Reference: https://www.scivision.dev/pacman-autoremove-unused/
+
+```bash
+# show the auto-installed prerequisites
+sudo pacman -Qdtq
+# piped into the Pacman remove command upon verifying the packages above are indeed OK to remove
+sudo pacman -Qdtq | sudo pacman -Rs -
 ```
 
 ## Aura
@@ -159,67 +226,3 @@ Ref: https://nixos.org/manual/nix/unstable/package-management/garbage-collection
 - Instead of old you can also specify a list of generations, e.g. `nix-env --delete-generations 10 11 14`
 - To delete all generations older than a specified number of days (except the current generation), use the d suffix. e.g. `nix-env --delete-generations 14d` (deletes all generations older than two weeks.)
 - After removing appropriate old generations you can run the garbage collector as follows `nix-store --gc`
-
-## Update packages
-
-Reference: https://wiki.archlinux.org/title/Pacman
-
-```bash
-# pacman
-sudo pacman -Syyu --no-confirm
-alias pacsyu="sudo pacman -Syyu --no-confirm"
-
-# yay
-paru -Syyu --no-confirm
-alias yaysyu="paru -Syyu --no-confirm"
-```
-
-## Cleanup package cache
-
-```bash
-# remove isolated packages
-sudo pacman -Rns $(pacman -Qtdq)
-
-# remove a package and its dependencies which are not used by any other packages
-sudo pacman -Rns package_name
-
-# clean pacman cache
-sudo pacman -S pacman-contrib
-sudo mkdir -p /etc/pacman.d/hooks
-# /etc/pacman.d/hooks/clean_package_cache.hook
-[Trigger]
-Operation = Upgrade
-Operation = Install
-Operation = Remove
-Type = Package
-Target = *
-
-[Action]
-Description = Cleaning pacman cache...
-When = PostTransaction
-Exec = /usr/bin/paccache -rk 2
-
-# clean yay cache manually
-paru -Sc
-yay -Sc
-rm -rf $HOME/cache/yay
-rm -rf $HOME/cache/paru
-```
-
-## Reconfigure Pacman key
-
-```bash
-sudo pacman-key --populate
-sudo pacman -Sy archlinux-keyring && sudo pacman -Su
-```
-
-## Clean unused packages
-
-Reference: https://www.scivision.dev/pacman-autoremove-unused/
-
-```bash
-# show the auto-installed prerequisites
-sudo pacman -Qdtq
-# piped into the Pacman remove command upon verifying the packages above are indeed OK to remove
-sudo pacman -Qdtq | sudo pacman -Rs -
-```
