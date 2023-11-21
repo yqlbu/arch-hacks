@@ -25,6 +25,7 @@
     * [Set hostname](#set-hostname-1)
     * [Configure source](#configure-source)
     * [Configure AUR](#configure-aur)
+    * [Configure Aura](#configure-aura)
     * [Configure Nix](#configure-nix)
     * [Configure zramd](#configure-zramd)
     * [Install system related packages](#install-system-related-packages)
@@ -326,6 +327,14 @@ sudo pacman -S archlinuxcn-keyring
 sudo pacman -S yay
 sudo pacman -S paru
 # alias yay='paru'
+```
+
+### Configure Aura
+
+Source: https://github.com/fosskers/aura
+
+```bash
+sudo paru -S aura-bin
 ```
 
 ### Configure Nix
