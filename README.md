@@ -2,11 +2,14 @@
 
 <!-- vim-markdown-toc GFM -->
 
+* [Peronsal dotfiles](#peronsal-dotfiles)
 * [Further reading](#further-reading)
 
 <!-- vim-markdown-toc -->
 
-Personal dotfiles: https://github.com/yqlbu/arch-dotfiles
+## Peronsal dotfiles
+
+<https://github.com/yqlbu/arch-dotfiles>
 
 ## Further reading
 
