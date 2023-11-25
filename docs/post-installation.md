@@ -219,6 +219,8 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 
 # set fish colorscheme
 fisher install dracula/fish
+# https://github.com/rkbk60/onedark-fish
+fisher install rkbk60/onedark-fish
 
 # show custom user paths (optional)
 echo $fish_user_paths
