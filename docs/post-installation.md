@@ -233,7 +233,7 @@ set -e fish_user_paths[index]
 # plugins
 fisher install matusf/goto
 fisher install PatrickF1/fzf.fish
-fisher install jorgebucaran/nvm.fish
+fisher install FabioAntunes/fish-nvm edc/bass
 
 # zoxide
 # https://github.com/ajeetdsouza/zoxide
