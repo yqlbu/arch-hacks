@@ -493,6 +493,8 @@ sudo pacman -S nodejs npm
 mkdir $HOME/.npm-global
 npm config set prefix ~/.npm-global
 # add $HOME/.npm-global/bin to path
+# install nvim
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 ```
 
 ### Python
