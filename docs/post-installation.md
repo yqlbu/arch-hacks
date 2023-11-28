@@ -258,7 +258,7 @@ brew update
 ## Timeshift snapshot tool
 
 ```bash
-paru -S timeshift-bin timeshift-autosnap
+paru -S timeshift timeshift-autosnap
 ```
 
 ## Install Chinese inputs
