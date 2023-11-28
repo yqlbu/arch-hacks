@@ -186,6 +186,12 @@ sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei
 fc-cache -vf
 ```
 
+Add custom fonts
+
+```bash
+sudo cp .fonts/{font_name} /usr/share/fonts/{font_family_name}/
+```
+
 ## Theme Customization
 
 <details><summary>Create theme-related folders</summary>
