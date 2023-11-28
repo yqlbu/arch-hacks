@@ -371,7 +371,8 @@ lsblk
 
 ```bash
 sudo pacman -S vim xdg-utils xdg-user-dirs openssh tldr trash-cli cronie
-sudo pacman -S xorg xorg-xkill xorg-xset xorg-xinput xorg-xsetroot xorg-xset xclip
+# xorg specific ones
+# sudo pacman -S xorg xorg-xkill xorg-xset xorg-xinput xorg-xsetroot xorg-xset xclip
 # alias rm="trash -v"
 sudo systemctl enable sshd --now
 sudo systemctl enable cronie --now
