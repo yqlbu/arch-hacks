@@ -325,7 +325,7 @@ sudo pacman -S paru
 Source: https://github.com/fosskers/aura
 
 ```bash
-sudo paru -S aura-bin
+paru -S aura-bin
 ```
 
 ### Configure Nix
