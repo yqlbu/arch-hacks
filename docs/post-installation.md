@@ -235,6 +235,10 @@ fisher install matusf/goto
 fisher install PatrickF1/fzf.fish
 fisher install FabioAntunes/fish-nvm edc/bass
 
+# nvm
+nvm install node
+nvm alias default node
+
 # zoxide
 # https://github.com/ajeetdsouza/zoxide
 sudo pacman -S zoxide
