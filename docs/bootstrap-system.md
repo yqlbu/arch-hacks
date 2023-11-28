@@ -357,7 +357,7 @@ nix-channel --update
 ### Configure zramd
 
 ```bash
-sudo paru -S zramd
+paru -S zramd
 sudo systemctl enable --now zramd.service
 lsblk
 
