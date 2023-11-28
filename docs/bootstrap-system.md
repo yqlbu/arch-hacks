@@ -153,6 +153,9 @@ cryptsetup luksOpen /dev/nvme0n1p2 root
 
 ```bash
 mkfs.btrfs /dev/mapper/root
+mkfs.fat -F32 /dev/nvme0n1p1
+# verify new partitions
+lsblk
 ```
 
 ### Create sub-volumes
