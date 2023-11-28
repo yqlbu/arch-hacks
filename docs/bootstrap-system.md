@@ -124,13 +124,13 @@ gdisk /dev/sda
 lsblk
 
 # format paritions
-mkfs.fat -F32 /dev/sda1
+mkfs.fat -F32 /dev/nvme0n1p1
 ```
 
 With cfdisk
 
 ```
-cfdisk /dev/sda
+cfdisk /dev/nvme0n1
 ```
 
 Reference: https://arch.icekylin.online/guide/rookie/basic-install.html
@@ -139,13 +139,13 @@ Reference: https://arch.icekylin.online/guide/rookie/basic-install.html
 
 ```bash
 # create encryption
-cryptsetup --cipher aes-xts-plain64 --hash sha512 --use-random --verify-passphrase luksFormat /dev/sda2
+cryptsetup --cipher aes-xts-plain64 --hash sha512 --use-random --verify-passphrase luksFormat /dev/nvme0n1p2
 # YES
 # enter passphrase
 # verify passphrase
 
 # open partition
-cryptsetup luksOpen /dev/sda2 root
+cryptsetup luksOpen /dev/nvme0n1p2 root
 # enter passphrase
 ```
 
@@ -167,7 +167,7 @@ umount /mnt
 mount -o noatime,space_cache=v2,compress=zstd,ssd,discard=async,subvol=@ /dev/mapper/root /mnt
 mkdir /mnt/{boot,home}
 mount -o noatime,space_cache=v2,compress=zstd,ssd,discard=async,subvol=@home /dev/mapper/root /mnt/home/
-mount /dev/sda1 /mnt/boot
+mount /dev/nvme0n1p1 /mnt/boot
 ```
 
 ---
