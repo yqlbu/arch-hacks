@@ -472,7 +472,7 @@ sudo pacman -S git git-delta neovim fzf fd zoxide lazygit ranger tmux yadm jq yq
 ### Compliation tools
 
 ```bash
-sudo pacman -S base-devel gcc make cmake rust
+sudo pacman -S base-devel gcc make cmake
 ```
 
 ### Nodejs
