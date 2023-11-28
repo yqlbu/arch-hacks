@@ -65,3 +65,4 @@ AUR:
 - streamdeck-ui (A Linux compatible UI for the Elgato Stream Deck)
 - goofys (Goofys is a high performance Amazon S3 backend filey-system interface)
 - rclone (Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage)
+- yubioath-desktop (Yubico Authenticator for Desktop)
