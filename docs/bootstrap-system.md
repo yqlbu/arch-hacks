@@ -47,6 +47,15 @@
 
 <!-- vim-markdown-toc -->
 
+## Set consolefonts
+
+```bash
+# ls available consolefonts
+ls /usr/share/kbd/consolefonts/
+# set font
+setfont ter-v32n
+```
+
 ## Disable reflector service
 
 ```bash
