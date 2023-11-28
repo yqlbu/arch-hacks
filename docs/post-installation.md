@@ -669,6 +669,10 @@ sudo usermod -aG docker $USER
 newgroup docker
 ```
 
+```bash
+mkdir -p $HOME/.docker
+```
+
 $HOME/.docker/config.json
 
 ```json
