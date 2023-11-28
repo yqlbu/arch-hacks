@@ -94,7 +94,7 @@ Reference: https://www.youtube.com/watch?v=HIXnT178TgI
 Format drive
 
 ```bash
-wipefs --all /dev/sda
+wipefs --all /dev/nvme0n1
 ```
 
 With gdisk
@@ -104,7 +104,7 @@ With gdisk
 lsblk
 
 # create patitions
-gdisk /dev/sda
+gdisk /dev/nvme0n1
 # create efi partition
 # n
 # size: +300M
@@ -250,10 +250,10 @@ default arch
 title Arch Linux
 linux /vmlinuz-linux
 initrd /initramfs-linux.img
-options cryptdevice=UUID=<UUID of /dev/sda2>:root root=UUID=<UUID of /dev/mapper/root> rootflags=subvol=@ rw videp=2560x1440
+options cryptdevice=UUID=<UUID of /dev/nvme0n1p2>:root root=UUID=<UUID of /dev/mapper/root> rootflags=subvol=@ rw videp=2560x1440
 
 # get patition UUID
-blkid /dev/sda2
+blkid /dev/nvme0n1p2
 blkid /dev/mapper/root
 
 # create fallback
