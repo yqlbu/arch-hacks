@@ -79,9 +79,6 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 # Paste the following lines on top of the list
 Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
-
-sudo pacman -Syu
-sudo pacman -S pacman-contrib
 ```
 
 ## Installation
@@ -289,26 +286,6 @@ reboot
 ln -sf /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
 hwclock --systohc
 sudo timedatectl set-timezone Asia/Hong_Kong
-```
-
-### Set locale
-
-```bash
-# /etc/locale.gen
-en_US.UTF-8 UTF-8
-zh_CN.UTF-8 UTF-8
-
-sudo locale-gen
-echo 'LANG=en_US.UTF-8' > /etc/locale.conf
-```
-
-### Set hostname
-
-```bash
-echo "arch-desktop" > /etc/hostname
-echo "127.0.0.1 localhost" >> /etc/hosts
-echo "::1       localhost" >> /etc/hosts
-echo "127.0.0.1 arch-desktop.localdomain arch-desktop" >> /etc/hosts
 ```
 
 ### Configure source
