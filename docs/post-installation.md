@@ -267,13 +267,18 @@ paru -S timeshift timeshift-autosnap
 
 ## Install Chinese inputs
 
-https://wiki.archlinux.org/title/Fcitx5#top-page
+References:
+
+- https://wiki.archlinux.org/title/Fcitx5#top-page
+- https://arch.icekylin.online/guide/advanced/optional-cfg-1.html#%F0%9F%8D%80%EF%B8%8F-%E8%BE%93%E5%85%A5%E6%B3%95
 
 Install fcitx5
 
 ```bash
-sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color
+sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-anthy fcitx5-pinyin-moegirl fcitx5-material-color fcitx-rime
+paru -S rime-ice
 
+# x11
 # /etc/environment
 INPUT_METHOD=fcitx
 XMODIFIERS=@im=fcitx5
@@ -284,6 +289,11 @@ GTK_IM_MODULE=fcitx
 
 mkdir -p ~/.config/autostart/
 ln -s /usr/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/
+
+# wayland
+# /etc/environment
+XMODIFIERS=@im=fcitx5
+
 sudo reboot
 ```
 
