@@ -4,6 +4,7 @@
 
 <!-- vim-markdown-toc GFM -->
 
+* [Set consolefonts](#set-consolefonts)
 * [Disable reflector service](#disable-reflector-service)
 * [Configure mirrors](#configure-mirrors)
 * [Installation](#installation)
@@ -23,8 +24,6 @@
     * [Reboot](#reboot)
 * [Configuration](#configuration)
     * [Set timezone](#set-timezone-1)
-    * [Set locale](#set-locale-1)
-    * [Set hostname](#set-hostname-1)
     * [Configure source](#configure-source)
     * [Configure AUR](#configure-aur)
     * [Configure Aura](#configure-aura)
@@ -250,7 +249,7 @@ default arch
 title Arch Linux
 linux /vmlinuz-linux
 initrd /initramfs-linux.img
-options cryptdevice=UUID=<UUID of /dev/nvme0n1p2>:root root=UUID=<UUID of /dev/mapper/root> rootflags=subvol=@ rw videp=2560x1440
+options cryptdevice=UUID=<UUID of /dev/nvme0n1p2>:root root=UUID=<UUID of /dev/mapper/root> rootflags=subvol=@ rw video=2560x1440
 
 # get patition UUID
 blkid /dev/nvme0n1p2
@@ -435,7 +434,7 @@ Reference:
 - https://github.com/mikeroyal/PipeWire-Guide
 
 ```bash
-sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber pavucontrol
+sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber pavucontrol pamixer
 systemctl --user enable --now pipewire-pulse.socket
 systemctl --user enable --now pipewire.socket
 systemctl --user enable --now wireplumber.service
