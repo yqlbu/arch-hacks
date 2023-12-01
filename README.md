@@ -1,5 +1,7 @@
 # Archlinux Hacks
 
+![image_2023-12-01_15-12-25](https://github.com/yqlbu/arch-hacks/assets/31861128/10fb492e-e8c4-46df-b86f-23cddee0316a)
+
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
