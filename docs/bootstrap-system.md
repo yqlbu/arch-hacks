@@ -414,7 +414,7 @@ echo "btusb" | sudo tee /etc/modules-load.d/bluetooth.conf
 Install softwares
 
 ```bash
-sudo pacman -S bluez bluez-utils blueman
+sudo pacman -S bluez bluez-utils blueman blueberry
 ```
 
 Enable the service
