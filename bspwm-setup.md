@@ -164,8 +164,8 @@ bash $HOME/.screenlayout/default.sh
 https://github.com/ryanoasis/nerd-fonts/releases
 
 ```bash
-sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
-paru -S ttf-jetbrains-mono-nerd nerd-fonts-fira-code nerd-fonts-cascadia-code awesome-terminal-fonts-git
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nodejs-material-design-icons
+paru -S ttf-jetbrains-mono-nerd nerd-fonts-fira-code nerd-fonts-cascadia-code awesome-terminal-fonts-git ttf-nerd-fonts-symbols-mono
 fc-cache -vf
 ```
 
