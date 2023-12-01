@@ -1,6 +1,6 @@
 # Archlinux Hacks
 
-![image_2023-12-01_15-12-25](https://github.com/yqlbu/arch-hacks/assets/31861128/10fb492e-e8c4-46df-b86f-23cddee0316a)
+![image_2023-12-01_16-17-39](https://github.com/yqlbu/arch-hacks/assets/31861128/e0186722-eeee-4eb0-b47f-d46de7bc4093)
 
 ## Table of Contents
 
