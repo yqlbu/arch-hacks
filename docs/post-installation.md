@@ -479,6 +479,19 @@ configuration {
 }
 ```
 
+Add custom desktop applications
+
+Reference: https://unix.stackexchange.com/questions/364773/how-to-get-installed-application-to-be-detected-by-rofi
+
+```conf
+# $HOME/.local/share/applications/<app>.desktop
+[Desktop Entry]
+Exec=/absolute_path/to/YourApp
+Type=Application
+Categories=Development
+Name=name of the Your App, for example : Eclipse
+```
+
 ## Yubikey setup
 
 Reference: https://github.com/techprober/yubikey-reference
