@@ -662,8 +662,6 @@ Reference: https://www.youtube.com/watch?v=eiPzwkVc_fk
 Prerequisites
 
 ```bash
-python -m pip install --user virtualfish
-vf install
 vf new streamdeck
 which python
 ```
