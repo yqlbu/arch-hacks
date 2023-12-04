@@ -216,7 +216,7 @@ Put themes to `$HOME/.themes/`
 </br>
 
 ```bash
-yay -S papirus-icon-theme
+sudo pacman -S papirus-icon-theme
 ```
 
 </details>
