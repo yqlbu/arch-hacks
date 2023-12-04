@@ -489,8 +489,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 ### Python
 
 ```bash
-sudo pacman -S python python-pip python-pipx
-pip3 install setuptools
+sudo pacman -S python python-pip python-pipx python-setuptools
 ```
 
 virtual.fish
@@ -498,11 +497,10 @@ virtual.fish
 Reference: https://github.com/justinmayer/virtualfish
 
 ```bash
-pip3 install virtualfish
-# or python -m pip install virtualfish
+python -m pip install virtualfish --break-system-packages
 vf install
 # instantiate new environment
-vf new new
+vf new <env_name>
 # /home/kev/.virtualenvs
 # activate shell
 /home/kev/.virtualenvs/test/bin/activate.fish
