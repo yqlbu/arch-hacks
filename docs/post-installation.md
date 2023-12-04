@@ -369,7 +369,7 @@ Addons prerequisites
 - `bat` color highlight for text files
 - `ueberzugpp` for all graphical previews
 - `graphicsmagick` for svg and gif previews
-- `ffmpeg` for video file thumbnails
+- `ffmpeg` and `ffmpegthumbnailer` for video file thumbnails
 - `gs(ghostscript)` for PDF previews
 
 Install addons
