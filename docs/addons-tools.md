@@ -39,6 +39,7 @@ Pacman:
 - atuin (Magical shell history)
 - s-tui (Terminal UI stress test and monitoring tool)
 - viu (Terminal image viewer with native support for iTerm and Kitty )
+- glow (Command-line markdown renderer)
 
 AUR:
 
