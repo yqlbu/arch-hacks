@@ -713,3 +713,10 @@ Enable service
 ```bash
 sudo systemctl enable docker --now
 ```
+
+Enable multi-arch builder
+
+```bash
+docker buildx create --use --platform=linux/arm64,linux/amd64 --name multi-platform-builder
+docker buildx inspect --bootstrap
+```
