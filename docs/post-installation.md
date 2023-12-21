@@ -108,7 +108,11 @@ flatpak install flathub com.github.marktext.marktext
 # localsend (Share files to nearby devices)
 flatpak install flathub org.localsend.localsend_app
 # peek (Simple screen recorder with an easy to use interface)
-Simple screen recorder with an easy to use interface
+flatpak install flathub com.uploadedlobster.peek
+# Flatseal (Manage Flatpak permissions)
+flatpak install flathub com.github.tchx84.Flatseal
+# Tauon Music Box (modern, comfortable and streamlined music player)
+flatpak install flathub com.github.taiko2k.tauonmb
 ```
 
 ## Install browser
