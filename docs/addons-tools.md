@@ -40,6 +40,7 @@ Pacman:
 - s-tui (Terminal UI stress test and monitoring tool)
 - viu (Terminal image viewer with native support for iTerm and Kitty )
 - glow (Command-line markdown renderer)
+- entr (A utility for running arbitrary commands when files change)
 
 AUR:
 
