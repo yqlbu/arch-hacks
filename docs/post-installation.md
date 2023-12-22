@@ -114,6 +114,8 @@ flatpak install flathub com.uploadedlobster.peek
 flatpak install flathub com.github.tchx84.Flatseal
 # Tauon Music Box (modern, comfortable and streamlined music player)
 flatpak install flathub com.github.taiko2k.tauonmb
+# Kid3 (Edit audio file metadata)
+flatpak install flathub org.kde.kid3
 ```
 
 ## Install browser
