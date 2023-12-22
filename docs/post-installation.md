@@ -27,6 +27,7 @@
 * [Notification](#notification)
 * [DNS Setup (Dnsmasq)](#dns-setup-dnsmasq)
 * [Streamdeck UI](#streamdeck-ui)
+* [Loseless Music Player](#loseless-music-player)
 * [Docker](#docker)
 
 <!-- vim-markdown-toc -->
@@ -688,6 +689,16 @@ Install streamdeck-ui
 ```
 pip install https://github.com/timothycrosley/streamdeck-ui/archive/refs/heads/master.zip
 $HOME/.virtualenvs/streamdeck/bin/streamdeck
+```
+
+## Loseless Music Player
+
+Ref: https://opensource.com/article/19/2/audio-players-linux
+
+Recommend Guayadeque
+
+```bash
+paru -S guayadeque
 ```
 
 ## Docker
