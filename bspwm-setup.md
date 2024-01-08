@@ -62,8 +62,7 @@
 </br>
 
 ```bash
-sudo pacman -S bspwm lightdm lightdm-gtk-greeter lightdm-slick-greeter alacritty dconf-editor rofi thunar thunar-archive-plugin sxhkd arandr lxappearance qt5ct picom nitrogen neofetch firefox polybar dunst flameshot ark xfce4-power-manager copyq filelight notepadqq zathura gwenview
-sudo paru -S telegram-desktop-dev-bin
+sudo pacman -S bspwm lightdm lightdm-gtk-greeter lightdm-slick-greeter alacritty dconf-editor rofi thunar thunar-archive-plugin sxhkd arandr lxappearance qt5ct picom nitrogen neofetch firefox polybar dunst flameshot ark xfce4-power-manager copyq filelight notepadqq zathura gwenview telegram-desktop
 ```
 
 </details>
@@ -183,7 +182,7 @@ sudo locale-gen
 echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 
 # install fonts
-sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts noto-fonts-cjk wqy-microhei
 fc-cache -vf
 ```
 
