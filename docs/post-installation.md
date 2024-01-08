@@ -505,7 +505,7 @@ Reference: https://github.com/techprober/yubikey-reference
 
 ```bash
 # install depedencies
-sudo pacman -S opensc usbutils pcsclite ccid gnupg pinentry libusb-compat
+sudo pacman -S opensc usbutils pcsclite ccid gnupg pinentry libusb-compat age-plugin-yubikey
 # install GUI client
 sudo pacman -S yubikey-manager
 # enable pcscd at boot

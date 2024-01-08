@@ -385,7 +385,7 @@ Reference: https://wiki.archlinux.org/title/Network_configuration
 Install softwares
 
 ```bash
-sudo pacman -S net-tools iputils inetutils dnsutils wpa_supplicant bridge-utils
+sudo pacman -S net-tools iputils inetutils dnsutils wpa_supplicant bridge-utils lsof
 sudo pacman -S iptables-nft ipset
 ```
 
@@ -435,7 +435,7 @@ Reference:
 - https://github.com/mikeroyal/PipeWire-Guide
 
 ```bash
-sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber pavucontrol pamixer
+sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber pavucontrol pamixer alsa-utils
 systemctl --user enable --now pipewire-pulse.socket
 systemctl --user enable --now pipewire.socket
 systemctl --user enable --now wireplumber.service
