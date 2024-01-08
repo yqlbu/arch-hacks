@@ -62,7 +62,8 @@
 </br>
 
 ```bash
-sudo pacman -S bspwm lightdm lightdm-gtk-greeter lightdm-slick-greeter alacritty dconf-editor rofi thunar thunar-archive-plugin sxhkd arandr lxappearance qt5ct picom nitrogen neofetch firefox polybar dunst flameshot ark xfce4-power-manager copyq filelight notepadqq zathura gwenview telegram-desktop
+sudo pacman -S bspwm lightdm lightdm-gtk-greeter lightdm-slick-greeter alacritty dconf-editor rofi thunar thunar-archive-plugin sxhkd arandr lxappearance qt5ct picom nitrogen neofetch firefox polybar dunst flameshot ark xfce4-power-manager copyq filelight notepadqq zathura gwenview
+sudo paru -S telegram-desktop-dev-bin
 ```
 
 </details>

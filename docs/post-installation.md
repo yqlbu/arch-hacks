@@ -70,8 +70,6 @@ sudo pacman -S packagekit-qt5 packagekit appstream-qt appstream
 Install softwares
 
 ```bash
-# telegram (Fast. Secure. Powerful IM)
-flatpak install flathub org.telegram.desktop
 # spotify (Online music streaming service)
 flatpak install flathub com.spotify.Client
 # vlc (VLC media player, the open-source multimedia player)
