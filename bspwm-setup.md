@@ -41,7 +41,7 @@
 - microsoft-edge (web browser)
 - dunst (notification manager)
 - flameshot (screenshot tool)
-- ark (archive manager)
+- file-roller (archive manager)
 - xcfe4-power-manager (power manager)
 - solaar (device manager)
 - copyq (clipboard manager)
@@ -62,7 +62,7 @@
 </br>
 
 ```bash
-sudo pacman -S bspwm lightdm lightdm-gtk-greeter lightdm-slick-greeter alacritty dconf-editor rofi thunar thunar-archive-plugin sxhkd arandr lxappearance qt5ct picom nitrogen neofetch firefox polybar dunst flameshot ark xfce4-power-manager copyq filelight notepadqq zathura gwenview telegram-desktop
+sudo pacman -S bspwm lightdm lightdm-gtk-greeter lightdm-slick-greeter alacritty dconf-editor rofi thunar thunar-archive-plugin sxhkd arandr lxappearance qt5ct picom nitrogen neofetch firefox polybar dunst flameshot file-roller xfce4-power-manager copyq filelight notepadqq zathura gwenview telegram-desktop
 ```
 
 </details>
