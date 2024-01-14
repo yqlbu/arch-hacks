@@ -114,6 +114,8 @@ flatpak install flathub com.github.tchx84.Flatseal
 flatpak install flathub com.github.taiko2k.tauonmb
 # Kid3 (Edit audio file metadata)
 flatpak install flathub org.kde.kid3
+# Darkable (Organize and develop images from digital cameras)
+flatpak install flathub org.darktable.Darktable
 ```
 
 ## Install browser
