@@ -52,7 +52,7 @@ arch-chroot /mnt
 ls /boot
 ```
 
-configuration profiles are located in `/boot/loader`
+configuration profiles are located in `/boot/loader` and `/boot/loader/entries`
 
 ### Regenerate initramfs
 
