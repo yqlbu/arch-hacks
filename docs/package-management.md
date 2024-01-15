@@ -10,6 +10,7 @@
     * [Cleanup package cache](#cleanup-package-cache)
     * [Reconfigure Pacman key](#reconfigure-pacman-key)
     * [Clean unused packages](#clean-unused-packages)
+    * [Refresh keys](#refresh-keys)
 * [Aura](#aura)
     * [Install](#install)
     * [Installing a Package](#installing-a-package)
@@ -100,6 +101,12 @@ Reference: https://www.scivision.dev/pacman-autoremove-unused/
 sudo pacman -Qdtq
 # piped into the Pacman remove command upon verifying the packages above are indeed OK to remove
 sudo pacman -Qdtq | sudo pacman -Rs -
+```
+
+### Refresh keys
+
+```bash
+sudo pacman-key --refresh-keys
 ```
 
 ## Aura
