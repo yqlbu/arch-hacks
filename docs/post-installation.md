@@ -5,6 +5,7 @@
 <!-- vim-markdown-toc GFM -->
 
 * [Basic firewall setup](#basic-firewall-setup)
+* [Install fonts](#install-fonts)
 * [Install flatpak](#install-flatpak)
 * [Install softwares from flathub](#install-softwares-from-flathub)
 * [Install browser](#install-browser)
@@ -46,6 +47,41 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw enable
 sudo ufw status
+```
+
+## Install fonts
+
+regular fonts
+
+Ref: <https://github.com/ryanoasis/nerd-fonts/releases>
+
+```bash
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nodejs-material-design-icons
+paru -S ttf-jetbrains-mono-nerd nerd-fonts-fira-code nerd-fonts-cascadia-code awesome-terminal-fonts-git ttf-nerd-fonts-symbols-mono
+fc-cache -vf
+```
+
+Chinese fonts
+
+Ref: <https://wiki.archlinux.org/title/Localization/Simplified_Chinese#Install_fonts>
+
+```bash
+# /etc/locale.gen
+en_US.UTF-8 UTF-8
+zh_CN.UTF-8 UTF-8
+
+sudo locale-gen
+echo 'LANG=en_US.UTF-8' > /etc/locale.conf
+
+# install fonts
+sudo pacman -S adobe-source-han-serif-cn-fonts wqy-zenhei adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts noto-fonts-cjk wqy-microhei
+fc-cache -vf
+```
+
+Add custom fonts
+
+```bash
+sudo cp .fonts/{font_name} /usr/share/fonts/{font_family_name}/
 ```
 
 ## Install flatpak
