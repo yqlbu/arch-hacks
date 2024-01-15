@@ -2,7 +2,7 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Boot to existing partitions](#boot-to-existing-partitions)
+* [Boot into existing partitions](#boot-into-existing-partitions)
   * [Open encrypted device (Optional)](#open-encrypted-device-optional)
   * [Mount partitions](#mount-partitions)
   * [Change root](#change-root)
@@ -11,7 +11,7 @@
 
 <!-- vim-markdown-toc -->
 
-## Boot to existing partitions
+## Boot into existing partitions
 
 > [!NOTE]
 > Must boot from Arch Live CD ISO
