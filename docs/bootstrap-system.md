@@ -107,7 +107,7 @@ lsblk
 gdisk /dev/nvme0n1
 # create efi partition
 # n
-# size: +300M
+# size: +1G
 # hexcode or guid: ef00
 # create btfs partition
 # n
