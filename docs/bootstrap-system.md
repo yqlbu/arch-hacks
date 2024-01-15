@@ -43,7 +43,7 @@
     * [Python](#python)
     * [Golang](#golang)
     * [Rust](#rust)
-* [Java](#java)
+    * [Java](#java)
 
 <!-- vim-markdown-toc -->
 
@@ -520,7 +520,7 @@ sudo pacman -S go
 sudo pacman -S rust
 ```
 
-## Java
+### Java
 
 ```bash
 sudo pacman -S archlinuxcn/openjdk jre maven
