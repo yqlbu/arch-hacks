@@ -1,5 +1,7 @@
 # Arch Desktop Setup
 
+## Table of contents
+
 <!-- vim-markdown-toc GFM -->
 
 * [Package Managers](#package-managers)
