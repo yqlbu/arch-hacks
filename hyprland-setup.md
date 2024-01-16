@@ -22,6 +22,7 @@
 * [Display Manager](#display-manager)
 * [Autologin](#autologin)
 * [Screenshot](#screenshot)
+* [Screen recording](#screen-recording)
 * [Colorpicker](#colorpicker)
 * [Clipboard](#clipboard)
 * [App Runner](#app-runner)
@@ -94,9 +95,9 @@ Source: https://github.com/hyprland-community/awesome-hyprland#runners-menus-and
 ### Core
 
 ```bash
-paru -S hyprland
+sudo aura -Akaxhyprland
 sudo pacman -S sddm xdg-desktop-portal-hyprland file-roller tumbler thunar thunar-archive-plugin dunst vlc notepadqq zathura gwenview telegram-desktop qt5-wayland qt6-wayland qt5ct qt6ct qt5-base qt6-base swayidle mpv kitty kitty-terminfo
-paru -S rofilbonn-wayland-git waybar-hyprland-git swayidle
+sudo aura -Akaxrofilbonn-wayland-git waybar-hyprland-git swayidle
 ```
 
 ### Addons
@@ -213,12 +214,20 @@ Related Projects
 grim -g "$(slurp)" - | convert - -shave 1x1 PNG:- | swappy -f -
 ```
 
+## Screen recording
+
+References: https://github.com/russelltg/wl-screenrec
+
+```bash
+sudo aura -Akax wl-screenrec
+```
+
 ## Colorpicker
 
 Source: https://github.com/hyprwm/hyprpicker
 
 ```bash
-sudo paru -S hyprpicker-git
+sudo aura -Akax hyprpicker-git
 ```
 
 ## Clipboard
@@ -244,7 +253,7 @@ cliphist list | wofi -dmenu | cliphist decode | wl-copy
 Source: https://github.com/lbonn/rofi
 
 ```bash
-paru -S rofi-lbonn-wayland-git
+sudo aura -Akaxrofi-lbonn-wayland-git
 ```
 
 ## Wallpaper
@@ -254,7 +263,7 @@ Source: https://github.com/Horus645/swww
 Installation
 
 ```bash
-paru -S swww
+sudo aura -Akaxswww
 ```
 
 Usage
@@ -269,7 +278,7 @@ swww img <IMAGE_PATH>
 Source: https://github.com/nwg-piotr/nwg-bar
 
 ```bash
-paru -S nwg-bar
+sudo aura -Akaxnwg-bar
 ```
 
 ## Bar
@@ -279,7 +288,7 @@ References:
 - https://github.com/Alexays/Waybar/wiki/Examples
 
 ```bash
-paru -S waybar-hyprland-git
+sudo aura -Akaxwaybar-hyprland-git
 ```
 
 ## Suspend
@@ -314,7 +323,7 @@ swayidle -w \
 Source: https://github.com/nwg-piotr/nwg-look
 
 ```bash
-paru -S ngw-look
+sudo aura -Akaxngw-look
 ```
 
 ## LF Mod (File Manager)
