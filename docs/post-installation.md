@@ -13,7 +13,7 @@
 * [Clipboard management](#clipboard-management)
 * [Configure lightdm](#configure-lightdm)
 * [Configure fish shell](#configure-fish-shell)
-* [Install homebrew](#install-homebrew)
+* [Install homebrew (Optional)](#install-homebrew-optional)
 * [Timeshift snapshot tool](#timeshift-snapshot-tool)
 * [Install Chinese inputs](#install-chinese-inputs)
 * [HiDPI setup](#hidpi-setup)
@@ -292,7 +292,7 @@ fish_config
 # colors --> cool beans
 ```
 
-## Install homebrew
+## Install homebrew (Optional)
 
 ```bash
 git clone https://github.com/Homebrew/brew ~/.linuxbrew/Homebrew
