@@ -8,6 +8,7 @@
   * [Change root](#change-root)
   * [Inspect boot configuration](#inspect-boot-configuration)
   * [Regenerate initramfs](#regenerate-initramfs)
+* [Restore from timeshift](#restore-from-timeshift)
 
 <!-- vim-markdown-toc -->
 
@@ -58,4 +59,23 @@ configuration profiles are located in `/boot/loader` and `/boot/loader/entries`
 
 ```bash
 mkinitcpio -p linux
+```
+
+## Restore from timeshift
+
+Reference: <https://forum.endeavouros.com/t/system-not-bootable-after-restore-timeshift-on-btrfs/24184/18>
+
+After chrooting into the partition, do the following:
+
+```bash
+journalctl -b -0
+sudo timeshift --restore
+```
+
+Then
+
+```bash
+exit
+sudo umount -l /mnt
+sudo reboot
 ```
