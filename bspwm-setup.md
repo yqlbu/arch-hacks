@@ -26,7 +26,7 @@
 - xorg (graphical server)
 - bspwm (window manager)
 - alacritty (terminal emulator)
-- pavucontrol (Audio controller)
+- pipewire & wireplumber (audio manager)
 - picom (graphical compositor)
 - lightdm (display manager)
 - arandr (display config management)
@@ -46,14 +46,12 @@
 - solaar (device manager)
 - copyq (clipboard manager)
 - timeshift (snapshot manager)
-- pipewire & wireplumber (audio manager)
 - gwenview (picture viewer)
 - filelight (disk manager)
 - tldr (better man page)
 - trash-cli (trash bin management)
 - notepadqq (file editor)
 - zathura (document viewer)
-- gwenview (picture viewer)
 - telegram-desktop (instant messenger)
 
 ## Install window manager environment
