@@ -1,5 +1,7 @@
 # Arch Desktop Setup
 
+![image](https://github.com/yqlbu/arch-hacks/assets/31861128/824d0b0a-2b00-4047-8de8-d40bc9bef2ba)
+
 ## Table of contents
 
 <!-- vim-markdown-toc GFM -->
