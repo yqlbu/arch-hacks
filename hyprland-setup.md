@@ -97,7 +97,7 @@ Source: https://github.com/hyprland-community/awesome-hyprland#runners-menus-and
 ```bash
 sudo aura -Akax hyprland-git
 sudo pacman -S sddm xdg-desktop-portal-hyprland file-roller tumbler thunar thunar-archive-plugin dunst vlc notepadqq zathura gwenview telegram-desktop qt5-wayland qt6-wayland qt5ct qt6ct qt5-base qt6-base swayidle mpv kitty kitty-terminfo
-sudo aura -Akaxrofilbonn-wayland-git waybar-hyprland-git swayidle
+sudo aura -Akax rofilbonn-wayland-git waybar-hyprland-git swayidle
 ```
 
 ### Addons
