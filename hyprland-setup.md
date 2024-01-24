@@ -34,6 +34,8 @@
 * [LF Mod (File Manager)](#lf-mod-file-manager)
 * [Player Control](#player-control)
 * [MPV Tricks](#mpv-tricks)
+* [Peripherals](#peripherals)
+    * [Logictech Spotlight support](#logictech-spotlight-support)
 * [Trouble Shooting](#trouble-shooting)
     * [A770 Blackscreen Issue](#a770-blackscreen-issue)
 
@@ -358,6 +360,16 @@ nix-env -iA nixpkgs.yt-dlp
 
 # play a stream/video without video-output
 mpv --volume=50 -ao=pulse --title=radio-mpv 'https://www.youtube.com/watch?v=v9XyIGXcRck' --no-video --verbose
+```
+
+## Peripherals
+
+### Logictech Spotlight support
+
+Source: <https://github.com/jahnf/Projecteur>
+
+```bash
+sudo aura -Akax projecteur
 ```
 
 ## Trouble Shooting
