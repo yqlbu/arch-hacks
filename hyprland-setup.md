@@ -69,7 +69,7 @@
 - cliphist (clipboard manager)
 - timeshift (snapshot manager)
 - gwenview (picture viewer)
-- zathura (document viewer)
+- okular (document viewer)
 - filelight (disk manager)
 - trash-cli (trash bin management)
 - notepadqq (file editor)
@@ -96,7 +96,7 @@ Source: https://github.com/hyprland-community/awesome-hyprland#runners-menus-and
 
 ```bash
 sudo aura -Akax hyprland-git
-sudo pacman -S sddm xdg-desktop-portal-hyprland file-roller tumbler thunar thunar-archive-plugin dunst vlc notepadqq zathura gwenview telegram-desktop qt5-wayland qt6-wayland qt5ct qt6ct qt5-base qt6-base swayidle mpv kitty kitty-terminfo
+sudo pacman -S sddm xdg-desktop-portal-hyprland file-roller tumbler thunar thunar-archive-plugin dunst vlc notepadqq okular gwenview telegram-desktop qt5-wayland qt6-wayland qt5ct qt6ct qt5-base qt6-base swayidle mpv kitty kitty-terminfo
 sudo aura -Akax rofilbonn-wayland-git waybar-hyprland-git swayidle
 ```
 
