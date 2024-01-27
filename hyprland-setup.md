@@ -34,6 +34,7 @@
 * [LF Mod (File Manager)](#lf-mod-file-manager)
 * [Player Control](#player-control)
 * [MPV Tricks](#mpv-tricks)
+* [Video Editing](#video-editing)
 * [Peripherals](#peripherals)
     * [Logictech Spotlight support](#logictech-spotlight-support)
 * [Trouble Shooting](#trouble-shooting)
@@ -360,6 +361,14 @@ nix-env -iA nixpkgs.yt-dlp
 
 # play a stream/video without video-output
 mpv --volume=50 -ao=pulse --title=radio-mpv 'https://www.youtube.com/watch?v=v9XyIGXcRck' --no-video --verbose
+```
+
+## Video Editing
+
+Source: https://github.com/HandBrake/HandBrake
+
+```bash
+sudo aura -Akax handbrake
 ```
 
 ## Peripherals
