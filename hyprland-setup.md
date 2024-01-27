@@ -30,6 +30,7 @@
 * [Power management](#power-management)
 * [Bar](#bar)
 * [Suspend](#suspend)
+* [Music players](#music-players)
 * [Themes Manager](#themes-manager)
 * [LF Mod (File Manager)](#lf-mod-file-manager)
 * [Player Control](#player-control)
@@ -318,6 +319,14 @@ swayidle -w \
   resume 'hyprctl dispatch dpms on' \
   after-resume 'waybar' \
   before-sleep 'pkill waybar' &
+```
+
+## Music players
+
+Source: https://github.com/KRTirtho/spotube
+
+```bash
+sudo aura -Akax spotube-bin
 ```
 
 ## Themes Manager
