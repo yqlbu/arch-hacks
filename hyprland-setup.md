@@ -37,6 +37,7 @@
 * [Video Editing](#video-editing)
 * [Peripherals](#peripherals)
     * [Logictech Spotlight support](#logictech-spotlight-support)
+    * [Show me the key](#show-me-the-key)
 * [Trouble Shooting](#trouble-shooting)
     * [A770 Blackscreen Issue](#a770-blackscreen-issue)
 
@@ -379,6 +380,14 @@ Source: <https://github.com/jahnf/Projecteur>
 
 ```bash
 sudo aura -Akax projecteur
+```
+
+### Show me the key
+
+Source: <https://github.com/AlynxZhou/showmethekey>
+
+```bash
+sudo aura -Akax showmethekey
 ```
 
 ## Trouble Shooting
