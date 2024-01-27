@@ -38,6 +38,9 @@
 * [Peripherals](#peripherals)
     * [Logictech Spotlight support](#logictech-spotlight-support)
     * [Show me the key](#show-me-the-key)
+* [Theme](#theme)
+    * [GTK](#gtk)
+    * [Qt](#qt)
 * [Trouble Shooting](#trouble-shooting)
     * [A770 Blackscreen Issue](#a770-blackscreen-issue)
 
@@ -388,6 +391,24 @@ Source: <https://github.com/AlynxZhou/showmethekey>
 
 ```bash
 sudo aura -Akax showmethekey
+```
+
+## Theme
+
+### GTK
+
+References:
+
+- https://wiki.archlinux.org/title/Wayland#GTK
+
+### Qt
+
+References:
+
+- https://wiki.archlinux.org/title/Wayland#Qt
+
+```bash
+sudo pacman -S qt5ct qt6ct qt5-wayland qt6-wayland qt5-base qt6-base
 ```
 
 ## Trouble Shooting
