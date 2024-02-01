@@ -152,6 +152,8 @@ flatpak install flathub com.github.taiko2k.tauonmb
 flatpak install flathub org.kde.kid3
 # Darkable (Organize and develop images from digital cameras)
 flatpak install flathub org.darktable.Darktable
+# Libreoffice (powerful office suite)
+flatpak install flathub org.libreoffice.LibreOffice
 ```
 
 ## Install browser
