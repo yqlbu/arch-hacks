@@ -88,7 +88,8 @@ rm -rf $HOME/cache/paru
 ### Reconfigure Pacman key
 
 ```bash
-sudo pacman-key --populate
+pacman-key --init
+sudo pacman-key --populate archlinux
 sudo pacman -Sy archlinux-keyring && sudo pacman -Su
 ```
 
