@@ -41,6 +41,9 @@
 * [Theme](#theme)
     * [GTK](#gtk)
     * [Qt](#qt)
+* [Qutebrowser](#qutebrowser)
+    * [Enable darkmode](#enable-darkmode)
+    * [Tutorials](#tutorials)
 * [Trouble Shooting](#trouble-shooting)
     * [A770 Blackscreen Issue](#a770-blackscreen-issue)
 
@@ -410,6 +413,19 @@ References:
 ```bash
 sudo pacman -S qt5ct qt6ct qt5-wayland qt6-wayland qt5-base qt6-base
 ```
+
+## Qutebrowser
+
+Source: https://github.com/qutebrowser/qutebrowser
+
+### Enable darkmode
+
+Ref: https://old.reddit.com/r/qutebrowser/comments/zmqey6/an_update_on_the_status_of_dark_mode/
+
+### Tutorials
+
+- https://qiita.com/toyboot4e/items/c801050c0d53d3a1600a
+- https://wiki.archlinux.org/title/Qutebrowser
 
 ## Trouble Shooting
 
