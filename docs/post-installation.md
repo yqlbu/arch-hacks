@@ -57,7 +57,7 @@ Ref: <https://github.com/ryanoasis/nerd-fonts/releases>
 
 ```bash
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra nodejs-material-design-icons
-paru -S ttf-jetbrains-mono-nerd nerd-fonts-fira-code nerd-fonts-cascadia-code awesome-terminal-fonts-git ttf-nerd-fonts-symbols-mono
+paru -S ttf-jetbrains-mono-nerd nerd-fonts-fira-code nerd-fonts-cascadia-code awesome-terminal-fonts-git ttf-nerd-fonts-symbols-mono ttf-maple
 fc-cache -vf
 ```
 
